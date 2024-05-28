@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <body>
+    <button id="ip1">Click Here To Change colors</button>
+<div id="ip2"></div>
+    <script>
+    let getip1=document.getElementById("ip1")
+        getip1.style.backgroundColor="pink"
+        getip1.style.fontSize="20px"
+        getip1.style.marginLeft="600px"
+        getip1.style.marginTop="350px"
+        getip1.style.borderRadius = "30px"
+    
+    let getip2=document.getElementById("ip2")
+        getip2.style.width="1200px"
+        getip2.style.height="700px"
+        getip2.style.marginTop="-330px"
+        getip2.style.border = "2px solid"
+        getip2.style.marginLeft="150px"
+        getip2.style.borderRadius = "30px"
+
+
+    getip1=document.getElementById('ip1')
+    getip1.addEventListener('click', function() {
+    elementToChange = document.getElementById('ip2');
+    let red = Math.floor(Math.random() * 256);
+    let green = Math.floor(Math.random() * 256);
+    let blue = Math.floor(Math.random() * 256);
+    let randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+    elementToChange.style.backgroundColor = randomColor;
+});
+    </script>
+</body>
+</html>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+   <a href="./login.html"><input type="submit" value=" already you have account" style="color: rgb(58, 80, 15);" ></a>
+   <!-- <input type="submit" value=" already you have account" -->
